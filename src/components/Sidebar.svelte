@@ -1,0 +1,371 @@
+<script>
+	// Menu Level 2;
+	let menuStatus2 = '';
+	let isMenuOpen2 = 'sidebar-list-menu';
+	
+	const toggleLevel2 = () => {
+		if (isMenuOpen2 === 'sidebar-list-menu') {
+			menuStatus2 = 'isOpen'
+			isMenuOpen2 = 'sidebar-list-menu isOpen'
+		}
+		else{
+			menuStatus2 = ''
+			isMenuOpen2 = 'sidebar-list-menu'
+		}
+    };
+    
+    // Menu Level 3
+    let menuStatus3 = '';
+    let isMenuOpen3 = 'sidebar-list-menu';
+    let menuStatus31 = '';
+    let isMenuOpen31 = 'sidebar-list-menu';
+    let menuStatus32 = '';
+    let isMenuOpen32 = 'sidebar-list-menu';
+
+    const toggleLevel3 = () => {
+        isMenuOpen31 = 'sidebar-list-menu';
+        isMenuOpen32 = 'sidebar-list-menu';
+        
+        if (isMenuOpen3 === 'sidebar-list-menu') {
+			menuStatus3 = 'isOpen'
+			isMenuOpen3 = 'sidebar-list-menu isOpen'
+		}
+		else{
+			menuStatus3 = ''
+			isMenuOpen3 = 'sidebar-list-menu'
+		}
+    };
+
+    const toggleLevel31 = () => {
+        if (isMenuOpen31 === 'sidebar-list-menu') {
+			menuStatus31 = 'isOpen'
+			isMenuOpen31 = 'sidebar-list-menu isOpen'
+		}
+		else{
+			menuStatus31 = ''
+			isMenuOpen31 = 'sidebar-list-menu'
+		}
+    };
+    
+    const toggleLevel32 = () => {
+        if (isMenuOpen32 === 'sidebar-list-menu') {
+			menuStatus32 = 'isOpen'
+			isMenuOpen32 = 'sidebar-list-menu isOpen'
+		}
+		else{
+			menuStatus32 = ''
+			isMenuOpen32 = 'sidebar-list-menu'
+		}
+    };
+</script>
+
+<aside class="main-sidebar">
+	<div class="logo">
+		<img src="./logo-cuba.png" alt="">
+	</div>
+	<div class="main-content">
+		<div class="sidebar-content">
+            <ul class="sidebar-links">
+
+                <!-- General -->
+                <li class="sidebar-title">
+                    <span class="title">General</span>
+                    <span class="description">Global assets for apps</span>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">extension</i></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Widgets</span>
+                    </a>
+                </li>
+    
+                <!-- Component -->
+                <li class="sidebar-title">
+                    <span class="title">Component</span>
+                    <span class="description">Component to build your apps</span>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Card</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Notification</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Modals</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Calendar</span>
+                    </a>
+                </li>
+    
+                <!-- UI Elements -->
+                <li class="sidebar-title">
+                    <span class="title">UI Elements</span>
+                    <span class="description">Elements to build your apps</span>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Typography</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Alerts</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Buttons</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Dropdown</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Colors</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Pagination</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Navigation</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Breadcrumb</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Badges</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Jumbotron</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Panels</span>
+                    </a>
+                </li>
+    
+    
+                <!-- UI Elements -->
+                <li class="sidebar-title">
+                    <span class="title">Email & Chat</span>
+                    <span class="description">Build your own social media</span>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Email</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Chat</span>
+                    </a>
+                </li>
+    
+    
+                <!-- E-commerce -->
+                <li class="sidebar-title">
+                    <span class="title">E-commerce</span>
+                    <span class="description">Build your own online shop</span>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Product Homepage</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Products</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Product Detail</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Cart</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Wishlist</span>
+                    </a>
+                </li>
+    
+    
+                <!-- Pages -->
+                <li class="sidebar-title">
+                    <span class="title">Pages</span>
+                    <span class="description">All Pages you can added</span>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Login</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Register</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Forgot Password</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">503</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">404</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="./" class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">403</span>
+                    </a>
+                </li>
+                
+    
+                <!-- Multilevel -->
+                <li class="sidebar-title">
+                    <span class="title">Menu Level</span>
+                    <span class="description">Create your own sidebar menu level</span>
+                </li>
+                <li class="sidebar-list">
+                    <div class={"list-content "+menuStatus2} on:click={toggleLevel2}>
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Level 2</span>
+                        <span class={"arrow "+menuStatus2}><i class="material-icons">chevron_left</i></span>
+                    </div>
+                    <ul class={isMenuOpen2}>
+                        <li class="sidebar-list">
+                            <a href="./" class="list-content">
+                                <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                                <span class="title">Level 2.1</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-list">
+                            <a href="./" class="list-content">
+                                <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                                <span class="title">Level 2.2</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-list">
+                    <div class={"list-content "+menuStatus3} on:click={toggleLevel3}>
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Level 3</span>
+                        <span class={"arrow "+menuStatus3}><i class="material-icons">chevron_left</i></span>
+                    </div>
+                    <ul class={isMenuOpen3}>
+                        <li class="sidebar-list">
+                            <div class={"list-content "+menuStatus31} on:click={toggleLevel31}>
+                                <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                                <span class="title">Level 3.1</span>
+                                <span class={"arrow "+menuStatus31}><i class="material-icons">chevron_left</i></span>
+                            </div>
+                            <ul class={isMenuOpen31}>
+                                <li class="sidebar-list">
+                                    <a href="./" class="list-content">
+                                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                                        <span class="title">Level 1.1</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-list">
+                                    <a href="./" class="list-content">
+                                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                                        <span class="title">Level 1.2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-list">
+                            <div class={"list-content "+menuStatus32} on:click={toggleLevel32}>
+                                <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                                <span class="title">Level 3.2</span>
+                                <span class={"arrow "+menuStatus32}><i class="material-icons">chevron_left</i></span>
+                            </div>
+                            <ul class={isMenuOpen32}>
+                                <li class="sidebar-list">
+                                    <a href="./" class="list-content">
+                                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                                        <span class="title">Level 1.1</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-list">
+                                    <a href="./" class="list-content">
+                                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                                        <span class="title">Level 1.2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+    
+            </ul>
+        </div>
+	</div>
+</aside>
