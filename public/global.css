@@ -720,6 +720,43 @@ textarea{
 	margin-bottom: 30px;
 }
 
+
+/* Custom Scroll */
+::-webkit-scrollbar{
+	width: 5px;
+}
+::-webkit-scrollbar:hover{
+	width: 7px;
+}
+::-webkit-scrollbar-track {
+	background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(68, 102, 242, 0.1);
+	border-radius: 25px;
+	transition: all 0.3s;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(115 102 255 / 16%);
+}
+
+.ss-wrapper{
+	z-index: unset;
+}
+.ss-content{
+	overflow-x: hidden;
+}
+.ss-scroll{
+	left: 100%;
+	right: 0 !important;
+	background: rgb(68 102 242 / 17%);
+	z-index: unset;
+}
+.ss-scroll:hover{
+	background: rgb(68 102 242 / 25%);
+}
+
+
 /* ---------------------- */
 /* 		   	End		  	  */
 /* ---------------------- */
@@ -777,14 +814,15 @@ header{
     padding: 10px 0;
 }
 .sidebar-content{
+	position: relative;
 	float: left;
 	width: 88%;
 	height: 80vh;
 	margin-top: 20px;
 	margin-bottom: 30px;
 	padding: 0 15px;
-	overflow-x: hidden;
-	overflow-y: auto;
+	/* overflow-x: hidden;
+	overflow-y: auto; */
 }
 .sidebar-links{
 	float: left;

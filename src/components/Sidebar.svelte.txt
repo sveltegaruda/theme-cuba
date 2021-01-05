@@ -1,35 +1,62 @@
 <script>
-    import { onMount } from "svelte";
+	// Menu Level 2;
+	let menuStatus2 = '';
+	let isMenuOpen2 = 'sidebar-list-menu';
+	
+	const toggleLevel2 = () => {
+		if (isMenuOpen2 === 'sidebar-list-menu') {
+			menuStatus2 = 'isOpen'
+			isMenuOpen2 = 'sidebar-list-menu isOpen'
+		}
+		else{
+			menuStatus2 = ''
+			isMenuOpen2 = 'sidebar-list-menu'
+		}
+    };
+    
+    // Menu Level 3
+    let menuStatus3 = '';
+    let isMenuOpen3 = 'sidebar-list-menu';
+    let menuStatus31 = '';
+    let isMenuOpen31 = 'sidebar-list-menu';
+    let menuStatus32 = '';
+    let isMenuOpen32 = 'sidebar-list-menu';
 
-    // Mount Jquery
-    onMount(() => {
-        go_jQuery();
-    });
+    const toggleLevel3 = () => {
+        isMenuOpen31 = 'sidebar-list-menu';
+        isMenuOpen32 = 'sidebar-list-menu';
+        
+        if (isMenuOpen3 === 'sidebar-list-menu') {
+			menuStatus3 = 'isOpen'
+			isMenuOpen3 = 'sidebar-list-menu isOpen'
+		}
+		else{
+			menuStatus3 = ''
+			isMenuOpen3 = 'sidebar-list-menu'
+		}
+    };
 
-    // Start jQuery
-    function go_jQuery() {
-        !(function ($) {
-
-            // Sidebar Menu
-            jQuery(document).on("click", ".list-content", function(){
-                if (!jQuery(this).parent(".sidebar-list").children(".sidebar-list-menu").hasClass("isOpen")){
-                    jQuery(this).addClass("isOpen");
-                    jQuery(this).children(".arrow").addClass("isOpen");
-                    jQuery(this).parent(".sidebar-list").children(".sidebar-list-menu").addClass("isOpen");
-                }
-                else{
-                    jQuery(this).removeClass("isOpen");
-                    jQuery(this).children(".arrow").removeClass("isOpen");
-                    jQuery(this).parent(".sidebar-list").children(".sidebar-list-menu").removeClass("isOpen");
-                }
-            });
-
-            // Custom Scrollbar
-            var el = document.querySelector('.custom-scrollbar');
-            SimpleScrollbar.initEl(el);
-
-        })(jQuery);
-    }
+    const toggleLevel31 = () => {
+        if (isMenuOpen31 === 'sidebar-list-menu') {
+			menuStatus31 = 'isOpen'
+			isMenuOpen31 = 'sidebar-list-menu isOpen'
+		}
+		else{
+			menuStatus31 = ''
+			isMenuOpen31 = 'sidebar-list-menu'
+		}
+    };
+    
+    const toggleLevel32 = () => {
+        if (isMenuOpen32 === 'sidebar-list-menu') {
+			menuStatus32 = 'isOpen'
+			isMenuOpen32 = 'sidebar-list-menu isOpen'
+		}
+		else{
+			menuStatus32 = ''
+			isMenuOpen32 = 'sidebar-list-menu'
+		}
+    };
 </script>
 
 <aside class="main-sidebar">
@@ -37,7 +64,7 @@
 		<img src="./assets/images/logo-cuba.png" alt="">
 	</div>
 	<div class="main-content">
-		<div class="sidebar-content custom-scrollbar">
+		<div class="sidebar-content">
             <ul class="sidebar-links">
 
                 <!-- General -->
@@ -266,12 +293,12 @@
                     <span class="description">Create your own sidebar menu level</span>
                 </li>
                 <li class="sidebar-list">
-                    <div class="list-content">
+                    <div class={"list-content "+menuStatus2} on:click={toggleLevel2}>
                         <span class="icon"><i class="material-icons">drag_indicator</i></span>
                         <span class="title">Level 2</span>
-                        <span class="arrow"><i class="material-icons">chevron_left</i></span>
+                        <span class={"arrow "+menuStatus2}><i class="material-icons">chevron_left</i></span>
                     </div>
-                    <ul class="sidebar-list-menu">
+                    <ul class={isMenuOpen2}>
                         <li class="sidebar-list">
                             <a href="./" class="list-content">
                                 <span class="icon"><i class="material-icons">drag_indicator</i></span>
@@ -287,19 +314,19 @@
                     </ul>
                 </li>
                 <li class="sidebar-list">
-                    <div class="list-content">
+                    <div class={"list-content "+menuStatus3} on:click={toggleLevel3}>
                         <span class="icon"><i class="material-icons">drag_indicator</i></span>
                         <span class="title">Level 3</span>
-                        <span class="arrow"><i class="material-icons">chevron_left</i></span>
+                        <span class={"arrow "+menuStatus3}><i class="material-icons">chevron_left</i></span>
                     </div>
-                    <ul class="sidebar-list-menu">
+                    <ul class={isMenuOpen3}>
                         <li class="sidebar-list">
-                            <div class="list-content">
+                            <div class={"list-content "+menuStatus31} on:click={toggleLevel31}>
                                 <span class="icon"><i class="material-icons">drag_indicator</i></span>
                                 <span class="title">Level 3.1</span>
-                                <span class="arrow"><i class="material-icons">chevron_left</i></span>
+                                <span class={"arrow "+menuStatus31}><i class="material-icons">chevron_left</i></span>
                             </div>
-                            <ul class="sidebar-list-menu">
+                            <ul class={isMenuOpen31}>
                                 <li class="sidebar-list">
                                     <a href="./" class="list-content">
                                         <span class="icon"><i class="material-icons">drag_indicator</i></span>
@@ -315,12 +342,12 @@
                             </ul>
                         </li>
                         <li class="sidebar-list">
-                            <div class="list-content">
+                            <div class={"list-content "+menuStatus32} on:click={toggleLevel32}>
                                 <span class="icon"><i class="material-icons">drag_indicator</i></span>
                                 <span class="title">Level 3.2</span>
-                                <span class="arrow"><i class="material-icons">chevron_left</i></span>
+                                <span class={"arrow "+menuStatus32}><i class="material-icons">chevron_left</i></span>
                             </div>
-                            <ul class="sidebar-list-menu">
+                            <ul class={isMenuOpen32}>
                                 <li class="sidebar-list">
                                     <a href="./" class="list-content">
                                         <span class="icon"><i class="material-icons">drag_indicator</i></span>
