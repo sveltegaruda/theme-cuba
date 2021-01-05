@@ -5,7 +5,7 @@ Live Demo at https://cuba-theme.vercel.app
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit febimahermawan16/cuba-theme cuba
+npx degit sveltegaruda/theme-cuba cuba
 cd cuba
 ```
 
