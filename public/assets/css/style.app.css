@@ -40,6 +40,12 @@ textarea{
 .no-float{
 	float: none !important;
 }
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
 .pull-right-to-left{
 	float: right;
 }
@@ -749,10 +755,10 @@ textarea{
 
 /* Custom Scroll */
 ::-webkit-scrollbar{
-	width: 5px;
+	width: 8px;
 }
 ::-webkit-scrollbar:hover{
-	width: 7px;
+	width: 10px;
 }
 ::-webkit-scrollbar-track {
 	background: transparent; 
@@ -1298,7 +1304,7 @@ header.collapse-mode{
 /* 		   Sidebar		  */
 /* ---------------------- */
 
-.main-sidebar{
+.cuba-app-sidebar{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -1309,10 +1315,10 @@ header.collapse-mode{
 	transition: all 0.3s;
 	z-index: 11;
 }
-.main-sidebar.collapse-mode{
+.cuba-app-sidebar.collapse-mode{
 	left: -100%;
 }
-.main-sidebar .logo{
+.cuba-app-sidebar .logo{
     position: relative;
 	float: left;
 	display: flex;
@@ -1321,12 +1327,12 @@ header.collapse-mode{
 	box-shadow: -9px 0 20px rgba(89, 102, 122, 0.1);
 	align-items: center;
 }
-.main-sidebar .logo img{
+.cuba-app-sidebar .logo img{
 	margin-left: 10%;
 	max-width: 85%;
 	max-height: 85%;
 }
-.main-sidebar .logo .close-sidebar{
+.cuba-app-sidebar .logo .close-sidebar{
     display: none;
     position: absolute;
     top: 20%;
@@ -1352,7 +1358,7 @@ header.collapse-mode{
 	width: 100%;
 	height: 100%;
 }
-.main-sidebar .main-content{
+.cuba-app-sidebar .main-content{
 	float: left;
     width: 100%;
     height: calc(100vh - 102px);
@@ -1494,10 +1500,44 @@ header.collapse-mode{
 content{
 	float: right;
 	width: calc(100% - 280px);
-	min-height: 100vh;
+	height: auto;
 }
 content.collapse-mode{
 	width: 100%;
+}
+.cuba-app-content{
+	float: left;
+	width: 100%;
+	padding: 0 15px;
+	min-height: 100vh;
+	margin-top: 82px;
+}
+
+
+.card {
+	margin-bottom: 30px;
+    border: none !important;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    border-radius: 15px !important;
+    -webkit-box-shadow: 0 0 20px rgba(8, 21, 66, 0.05);
+    box-shadow: 0 0 20px rgba(8, 21, 66, 0.05);
+}
+.card-title {
+	padding-bottom: 20px;
+}
+.border-top-card{
+	border-bottom: 1px solid #f7f6f6;
+}
+.border-bottom-card{
+	border-bottom: 1px solid #f7f6f6;
+}
+.border-left-card{
+	border-bottom: 1px solid #f7f6f6;
+}
+.border-right-card{
+	border-bottom: 1px solid #f7f6f6;
 }
 
 /* ---------------------- */
@@ -1509,6 +1549,23 @@ content.collapse-mode{
 /* 		   Footer		  */
 /* ---------------------- */
 
+.cuba-app-footer{
+	display: flex;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	box-shadow: 0 0 20px rgba(89, 102, 122, 0.1);
+}
+.cuba-app-footer .copyright-side{
+	width: 70%;
+}
+.cuba-app-footer .version-side{
+	width: 30%;
+}
 
 /* ---------------------- */
 /* 		   	End		  	  */

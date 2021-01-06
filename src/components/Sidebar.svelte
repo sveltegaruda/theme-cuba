@@ -12,7 +12,7 @@
 
             // Close Sidebar
             jQuery(document).on("click", ".close-sidebar", function(){
-                jQuery(".main-sidebar").removeClass("collapse-mode");
+                jQuery(".cuba-app-sidebar").removeClass("collapse-mode");
                 jQuery("header").removeClass("collapse-mode");
                 jQuery("content").removeClass("collapse-mode");
             });
@@ -39,7 +39,7 @@
     }
 </script>
 
-<aside class="main-sidebar">
+<aside class="cuba-app-sidebar">
 	<div class="logo">
         <img src="./assets/images/logo-cuba.png" alt="">
         <span class="close-sidebar">

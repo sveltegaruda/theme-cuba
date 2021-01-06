@@ -16,12 +16,12 @@
 			// Toggle Sidebar
 			jQuery(document).on('click', ".toggle-sidebar", function() {
 				if (!jQuery("header").hasClass("collapse-mode")) {
-					jQuery(".main-sidebar").addClass("collapse-mode");
+					jQuery(".cuba-app-sidebar").addClass("collapse-mode");
 					jQuery("header").addClass("collapse-mode");
 					jQuery("content").addClass("collapse-mode");
 				}
 				else{
-					jQuery(".main-sidebar").removeClass("collapse-mode");
+					jQuery(".cuba-app-sidebar").removeClass("collapse-mode");
 					jQuery("header").removeClass("collapse-mode");
 					jQuery("content").removeClass("collapse-mode");
 				}
@@ -158,6 +158,62 @@
 										</div>
 									</a>
 								</li>
+								<li>
+									<a href="./">
+										<div class="image">
+											<img src="./assets/images/avatar.jpg" alt="...">
+										</div>
+										<div class="list-content">
+											<div class="sender">
+												<span class="sender-name">Febima H. H.</span>
+												<span class="time-send tcolor-green">05 Jan 2021</span>
+											</div>
+											<div class="description">This is dummy data messages for Start Up</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="./">
+										<div class="image">
+											<img src="./assets/images/avatar.jpg" alt="...">
+										</div>
+										<div class="list-content">
+											<div class="sender">
+												<span class="sender-name">Danang Dandies</span>
+												<span class="time-send tcolor-green">05 Jan 2021</span>
+											</div>
+											<div class="description">This is dummy data messages for Start Up</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="./">
+										<div class="image">
+											<img src="./assets/images/avatar.jpg" alt="...">
+										</div>
+										<div class="list-content">
+											<div class="sender">
+												<span class="sender-name">Febima H. H.</span>
+												<span class="time-send tcolor-green">05 Jan 2021</span>
+											</div>
+											<div class="description">This is dummy data messages for Start Up</div>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="./">
+										<div class="image">
+											<img src="./assets/images/avatar.jpg" alt="...">
+										</div>
+										<div class="list-content">
+											<div class="sender">
+												<span class="sender-name">Danang Dandies</span>
+												<span class="time-send tcolor-green">05 Jan 2021</span>
+											</div>
+											<div class="description">This is dummy data messages for Start Up</div>
+										</div>
+									</a>
+								</li>
 							</ul>
 						</div>
 						<div class="footer-dropdown">
@@ -172,8 +228,8 @@
 					<div class="avatar-header toggle-dropdown">
 						<img src="./assets/images/avatar.jpg" alt="...">
 						<div class="bio">
-							<div class="name">Febima Hisolikin Hermawan</div>
-							<div class="status">Admin <Icon data={angleDown}/></div>
+							<div class="name">Svelte Garuda</div>
+							<div class="status">Maintainer <Icon data={angleDown}/></div>
 						</div>
 					</div>
 					<div class="dropdown-app sm-dropdown">
