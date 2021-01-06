@@ -230,6 +230,12 @@
     .main-header .header-container ul li{
         padding: 5px 10px;
     }
+    .form-search{
+        width: 150px;
+    }
+    .main-header .header-container{
+        width: 55%;
+    }
 
     .avatar-header img{
         max-width: 30px;
