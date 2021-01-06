@@ -10,6 +10,13 @@
     function go_jQuery() {
         !(function ($) {
 
+            // Close Sidebar
+            jQuery(document).on("click", ".close-sidebar", function(){
+                jQuery(".main-sidebar").removeClass("collapse-mode");
+                jQuery("header").removeClass("collapse-mode");
+                jQuery("content").removeClass("collapse-mode");
+            });
+
             // Sidebar Menu
             jQuery(document).on("click", ".list-content", function(){
                 if (!jQuery(this).parent(".sidebar-list").children(".sidebar-list-menu").hasClass("isOpen")){
@@ -34,7 +41,13 @@
 
 <aside class="main-sidebar">
 	<div class="logo">
-		<img src="./assets/images/logo-cuba.png" alt="">
+        <img src="./assets/images/logo-cuba.png" alt="">
+        <span class="close-sidebar">
+            <div class="btn-container">
+                <i class="material-icons">close</i>
+                <span class="ripple-layer"></span>
+            </div>
+        </span>
 	</div>
 	<div class="main-content">
 		<div class="sidebar-content custom-scrollbar">
