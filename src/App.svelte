@@ -1,11 +1,10 @@
 <script>
-	import Sidebar from "./components/Sidebar.svelte";
-    import Header from "./components/Header.svelte";
-    import Content from "./components/Content.svelte";
-
-
+  import { Router } from "@roxi/routify";
+  import { routes } from "../.routify/routes";
 </script>
 
-<Sidebar/>
-<Header/>
-<Content/>
+<style  global>
+  @import "../assets/global.css";
+</style>
+
+<Router {routes} />
