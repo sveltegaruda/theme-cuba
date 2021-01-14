@@ -224,7 +224,7 @@
 				<!-- <li>
 					<i class="main-icon material-icons">center_focus_weak</i>
 				</li> -->
-				<li>
+				<li style="padding-right:0;">
 					<div class="avatar-header toggle-dropdown">
 						<img src="/images/avatar.jpg" alt="...">
 						<div class="bio">

@@ -4,7 +4,7 @@
 <div class="cuba-app-content">
     <Col md="12">
         <div class="pull-left full-width pdt-30 pdb-30">
-            <h4><b>Panels</b></h4>
+            <h4><b>Invoice</b></h4>
         </div>
     </Col>
     <Col md=12>

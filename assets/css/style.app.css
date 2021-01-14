@@ -209,120 +209,120 @@ textarea{
 	background: #f5f5f9;
 }
 .bg-white{
-	color: #333;
+	color: #333 !important;
 	background: #fff;
 }
 .bg-white:hover{
-	color: #333;
+	color: #333 !important;
 	background: #fff;
 }
 .bg-default{
-	color: #575c5d;
+	color: #575c5d !important;
 	background: #eef4f5;
 	border: 1px solid #eef4f5;
 	transition: all 0.2s;
 }
 .bg-default:hover{
-	color: #575c5d;
+	color: #575c5d !important;
 	background: #eef4f5 !important;
 	border: 1px solid #eef4f5;
 }
 .bg-blue{
-	color: #fff;
+	color: #fff !important;
 	background: #8645ff;
 	border: 1px solid #8645ff;
 	transition: all 0.2s;
 }
 .bg-blue:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #783ee4 !important;
 	border: 1px solid #783ee4;
 }
 .bg-blue-light{
-	color: #fff;
+	color: #fff !important;
 	background: #1877f2;
 	border: 1px solid #1877f2;
 	transition: all 0.2s;
 }
 .bg-blue-light:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #368eff !important;
 	border: 1px solid #368eff;
 }
 .bg-red{
-	color: #fff;
+	color: #fff !important;
 	background: #ea5d33;
 	border: 1px solid #ea5d33;
 	transition: all 0.2s;
 }
 .bg-red:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #d65731 !important;
 	border: 1px solid #d65731;
 }
 .bg-red-light{
-	color: #fff;
+	color: #fff !important;
 	background: #ff473d;
 	border: 1px solid #ff473d;
 	transition: all 0.2s;
 }
 .bg-red-light:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #f73127 !important;
 	border: 1px solid #f73127;
 }
 .bg-teal{
-	color: #fff;
+	color: #fff !important;
 	background: #01b8ff;
 	border: 1px solid #01b8ff;
 	transition: all 0.2s;
 }
 .bg-teal:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #1abeff !important;
 	border: 1px solid #1abeff;
 }
 .bg-orange{
-	color: #fff;
+	color: #fff !important;
 	background: #ffb209;
 	border: 1px solid #ffb209;
 	transition: all 0.2s;
 }
 .bg-orange:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #f8c90f !important;
 	border: 1px solid #f8c90f;
 }
 .bg-green{
-	color: #fff;
+	color: #fff !important;
 	background: #38d250;
 	border: 1px solid #38d250;
 	transition: all 0.2s;
 }
 .bg-green:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #18da35 !important;
 	border: 1px solid #18da35;
 }
 .bg-dark{
-	color: #fff;
+	color: #fff !important;
 	background: #343a40;
 	border: 1px solid #343a40;
 	transition: all 0.2s;
 }
 .bg-dark:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #23272b !important;
 	border: 1px solid #23272b;
 }
 .bg-black{
-	color: #fff;
+	color: #fff !important;
 	background: #23272b;
 	border: 1px solid #23272b;
 	transition: all 0.2s;
 }
 .bg-black:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #343a40 !important;
 	border: 1px solid #343a40;
 }
@@ -757,11 +757,12 @@ textarea{
 
 /* Custom Scroll */
 ::-webkit-scrollbar{
-	width: 8px;
-}
-::-webkit-scrollbar:hover{
+	/* width: 8px; */
 	width: 10px;
 }
+	::-webkit-scrollbar:hover{
+		width: 10px;
+	}
 ::-webkit-scrollbar-track {
 	background: transparent; 
 }
@@ -783,7 +784,8 @@ textarea{
 }
 .ss-scroll{
 	position: absolute;
-	right: 3px !important;
+	/* right: 3px !important; */
+	right: -100% !important;
 	background: rgb(68 102 242 / 17%);
 	z-index: unset;
 }
@@ -906,6 +908,32 @@ textarea{
 	transition: all 0.3s;
 	z-index: 6;
 }
+/* ---------------------- */
+/* 		   	End		  	  */
+/* ---------------------- */
+
+
+/* ---------------------- */
+/* 		Sveltestrap		  */
+/* ---------------------- */
+.form-group label{
+	font-size: 0.85rem;
+}
+.form-control{
+	height: calc(1.5em + .75rem + 6px) !important;
+    padding: 0.75rem .75rem !important;
+    font-size: 0.85rem !important;
+    transition: all 0.3s !important;
+}
+.form-control:focus {
+	padding-left: 1rem !important;
+	border-color: #7867ff !important;
+	box-shadow: 0 3px 10px 0 rgba(34,41,47,.1) !important;
+}
+.card-body{
+	padding: 1.25rem 0 !important;
+}
+
 /* ---------------------- */
 /* 		   	End		  	  */
 /* ---------------------- */

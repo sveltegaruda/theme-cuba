@@ -77,6 +77,31 @@
                         <span class="title">File Manager</span>
                     </a>
                 </li>
+
+                <!-- Forms -->
+                <!-- UI Elements -->
+                <li class="sidebar-title">
+                    <span class="title">Forms</span>
+                    <span class="description">Forms to build your apps</span>
+                </li>
+                <li class="sidebar-list" class:active={$isActive('/schema/forms/form-elements')}>
+                    <a href={$url('/schema/forms/form-elements')} class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Form Elements</span>
+                    </a>
+                </li>
+                <li class="sidebar-list" class:active={$isActive('/schema/forms/form-validation')}>
+                    <a href={$url('/schema/forms/form-validation')} class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Form Validation</span>
+                    </a>
+                </li>
+                <li class="sidebar-list" class:active={$isActive('/schema/forms/form-editor')}>
+                    <a href={$url('/schema/forms/form-editor')} class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Form Editor</span>
+                    </a>
+                </li>
     
                 <!-- UI Elements -->
                 <li class="sidebar-title">
@@ -167,12 +192,6 @@
                         <span class="title">Navigation</span>
                     </a>
                 </li>
-                <li class="sidebar-list" class:active={$isActive('/schema/ui-elements/panels')}>
-                    <a href={$url('/schema/ui-elements/panels')} class="list-content">
-                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
-                        <span class="title">Panels</span>
-                    </a>
-                </li>
     
     
                 <!-- Social Media -->
@@ -221,6 +240,12 @@
                     <a href={$url('/schema/e-commerce/cart')} class="list-content">
                         <span class="icon"><i class="material-icons">drag_indicator</i></span>
                         <span class="title">Cart</span>
+                    </a>
+                </li>
+                <li class="sidebar-list" class:active={$isActive('/schema/e-commerce/invoice')}>
+                    <a href={$url('/schema/e-commerce/invoice')} class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Invoice</span>
                     </a>
                 </li>
                 <li class="sidebar-list" class:active={$isActive('/schema/e-commerce/wishlist')}>
