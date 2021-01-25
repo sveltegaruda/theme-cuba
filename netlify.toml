@@ -8,7 +8,7 @@
 # [dev]  
   # command = "npm run dev:ssr"
   # targetPort = 5000
-  # publish = "assets"
+  # publish = "public"
   # autoLaunch = true
 
 [[redirects]]
