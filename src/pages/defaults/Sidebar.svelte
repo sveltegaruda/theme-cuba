@@ -51,7 +51,7 @@
         </span>
 	</div>
 	<div class="main-content">
-		<div class="sidebar-content custom-scrollbar">
+		<div class="sidebar-content">
             <ul class="sidebar-links">
 
                 <!-- General -->
