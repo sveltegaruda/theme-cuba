@@ -33,9 +33,19 @@ textarea{
 .no-underline{
 	text-decoration: none !important;
 }
-
 .material-icons{
 	font-size: unset !important;
+}
+
+
+.visible{
+	display: block;
+}
+.visible-flex{
+	display: flex;
+}
+.hidden{
+	display: none;
 }
 
 
@@ -828,7 +838,6 @@ textarea{
 	box-shadow: 0 0 0 rgba(255, 71, 61, 0.9);
 	animation: sirensred 2s infinite;
 }
-  
 @-webkit-keyframes sirensred {
 	0% {
 	  -webkit-box-shadow: 0 0 0 0 rgba(255, 71, 61, 0.9);
@@ -842,7 +851,6 @@ textarea{
 	  -webkit-box-shadow: 0 0 0 0 rgba(255, 71, 61, 0);
 	}
 }
-  
 @keyframes sirensred {
 	0% {
 	  -moz-box-shadow: 0 0 0 0 rgba(255, 71, 61, 0.9);
@@ -859,14 +867,11 @@ textarea{
 	  box-shadow: 0 0 0 0 rgba(255, 71, 61, 0);
 	}
 }
-
-
 .sirens-green{
 	background: #56d094;
 	box-shadow: 0 0 0 rgba(9, 173, 149, 0.9);
 	animation: sirensgreen 2s infinite;
 }
-  
 @-webkit-keyframes sirensgreen {
 	0% {
 	  -webkit-box-shadow: 0 0 0 0 rgba(9, 173, 149, 0.9);
@@ -880,7 +885,6 @@ textarea{
 	  -webkit-box-shadow: 0 0 0 0 rgba(9, 173, 149, 0);
 	}
 }
-  
 @keyframes sirensgreen {
 	0% {
 	  -moz-box-shadow: 0 0 0 0 rgba(9, 173, 149, 0.9);
@@ -908,6 +912,59 @@ textarea{
 	transition: all 0.3s;
 	z-index: 6;
 }
+
+
+.cb-input-control{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	border: 1px solid #dad7d7;
+	border-radius: 5px;
+	transition: all 0.3s;
+}
+.cb-input-control.isFocused{
+	border: 1px solid #8645ff;
+	box-shadow: 0px 2px 12px rgb(150 131 131 / 23%);
+}
+.input-cb{
+	float: left;
+	width: 85%;
+	height: 38px;
+	padding: 5px 10px;
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #333;
+	border: none;
+	border-radius: 0px 5px 5px 0px;
+}
+.input-cb::placeholder{
+	font-weight: lighter;
+	color: #d2cdcd;
+}
+.input-cb.all-border-radius{
+	border-radius: 5px;
+}
+.icon-input-cb{
+	display: flex;
+	float: left;
+	width: 15%;
+	height: 38px;
+	font-size: 14px;
+	color: #d2cdcd;
+	align-items: center;
+	justify-content: center;
+}
+.icon-input-cb i{
+	font-size: 17px;
+}
+.icon-input-cb.isFocused{
+	color: #8645ff;
+}
+.i-pass{
+	cursor: pointer;
+}
 /* ---------------------- */
 /* 		   	End		  	  */
 /* ---------------------- */
@@ -933,6 +990,109 @@ textarea{
 .card-body{
 	padding: 1.25rem 0 !important;
 }
+
+
+
+.tooltip-inner{
+	padding: 7px 15px;
+	font-size: 13px;
+}
+/* .bs-tooltip-auto[x-placement^=top], .bs-tooltip-top{
+	top: -100% !important;
+}
+.bs-tooltip-auto[x-placement^=top] .arrow, .bs-tooltip-top .arrow{
+	bottom: 2px !important;
+}
+.bs-tooltip-auto[x-placement^=bottom], .bs-tooltip-bottom{
+	bottom: -100% !important;
+}
+.bs-tooltip-auto[x-placement^=left], .bs-tooltip-left{
+	left: -100% !important;
+}
+.bs-tooltip-auto[x-placement^=right], .bs-tooltip-right{
+	right: -100% !important;
+} */
+
+/* ---------------------- */
+/* 		   	End		  	  */
+/* ---------------------- */
+
+
+/* ---------------------- */
+/* 	   Authentication	  */
+/* ---------------------- */
+
+.auth-container{
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	padding: 20px 0;
+	background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+	background-size: cover;
+	overflow-y: auto;
+}
+.screen-flex-center{
+	display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.screen-flex-center .flex-content{
+	display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+}
+.auth-box{
+	display: flex;
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #eff2f7;
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+    align-items: center;
+    justify-content: center;
+}
+.auth-box .image-section,
+.auth-box .content-section{
+	float: left;
+	width: 50%;
+}
+.auth-box .image-section{
+	padding: 15px 0;
+	text-align: center;
+}
+.auth-box .content-section{
+	min-height: 400px;
+    padding: 30px;
+    background: #fff;
+}
+
+.component-devider{
+	position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.component-devider .line-gate{
+	float: left;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.component-devider .text{
+	float: left;
+    width: auto;
+    height: auto;
+    margin: 0 10px;
+    font-size: 14px;
+    color: #555;
+}
+
 
 /* ---------------------- */
 /* 		   	End		  	  */

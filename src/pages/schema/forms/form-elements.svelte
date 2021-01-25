@@ -2,6 +2,7 @@
     import {
         Col,
         FormGroup,
+        Label,
         Input,
         CustomInput,
         Row
@@ -115,9 +116,62 @@
                     </Col>
                     <Col md="4">
                         <FormGroup>
+                            <Label for="exampleCustomFileBrowser">File Browser</Label>
+                            <CustomInput type="file" id="exampleCustomFileBrowser" name="customFile" label="Pick a File" />
+                        </FormGroup>
+                    </Col>
+                    <Col md="4">
+                        <FormGroup>
+                            <Label for="exampleCustomSelect">Custom Select</Label>
+                            <CustomInput type="select" id="exampleCustomSelect" name="customSelect">
+                                <option value="">Select</option>
+                                <option>Value 1</option>
+                                <option>Value 2</option>
+                                <option>Value 3</option>
+                                <option>Value 4</option>
+                                <option>Value 5</option>
+                            </CustomInput>
+                        </FormGroup>
+                    </Col>
+                    <Col md="4">
+                        <FormGroup>
+                            <Label for="exampleCustomSelectDisabled">Custom Select Disabled</Label>
+                            <CustomInput type="select" id="exampleCustomSelectDisabled" name="customSelect" disabled>
+                                <option value="">Select</option>
+                                <option>Value 1</option>
+                                <option>Value 2</option>
+                                <option>Value 3</option>
+                                <option>Value 4</option>
+                                <option>Value 5</option>
+                            </CustomInput>
+                        </FormGroup>
+                    </Col>
+                    <Col md="4">
+                        <FormGroup>
                             <label for="">Checkbox</label>
-                            <CustomInput type="checkbox" id="cb1" label="Checbox With Inline" inline />
-                            <CustomInput type="checkbox" id="cb2" label="Checbox Without Inline" />
+                            <CustomInput type="checkbox" id="cb1" label="Checbox Inline 1" inline />
+                            <CustomInput type="checkbox" id="cb2" label="Checbox Inline 2" inline />
+                            <CustomInput type="checkbox" id="cb3" label="Checbox Disabled 1" inline disabled />
+                            <CustomInput type="checkbox" id="cb4" label="Checbox Disabled 2" inline disabled />
+                            <CustomInput type="checkbox" id="cb5" label="Checbox Without Inline" />
+                        </FormGroup>
+                    </Col>
+                    <Col md="4">
+                        <FormGroup>
+                            <label for="">Radio Button</label>
+                            <CustomInput type="radio" id="exampleCustomRadio" name="customRadio" label="Select this custom radio" />
+                            <CustomInput type="radio" id="exampleCustomRadio2" name="customRadio" label="Or this one" />
+                            <CustomInput type="radio" id="exampleCustomRadio3" label="But not this disabled one" disabled />
+                            <CustomInput type="radio" id="exampleCustomRadio4" label="Can't click this label to select!" htmlFor="exampleCustomRadio4_X" disabled />
+                        </FormGroup>
+                    </Col>
+                    <Col md="4">
+                        <FormGroup>
+                            <label for="">Switches</label>
+                            <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Turn on this custom switch" />
+                            <CustomInput type="switch" id="exampleCustomSwitch2" name="customSwitch" label="Or this one" />
+                            <CustomInput type="switch" id="exampleCustomSwitch3" label="But not this disabled one" disabled />
+                            <CustomInput type="switch" id="exampleCustomSwitch4" label="Can't click this label to turn on!" htmlFor="exampleCustomSwitch4_X" disabled />
                         </FormGroup>
                     </Col>
                 </Row>

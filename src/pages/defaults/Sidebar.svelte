@@ -59,8 +59,8 @@
                     <span class="title">General</span>
                     <span class="description">Global assets for apps</span>
                 </li>
-                <li class="sidebar-list" class:active={$isActive('/')}>
-                    <a href={$url('/')} class="list-content">
+                <li class="sidebar-list" class:active={$isActive('/schema/general/dashboard')}>
+                    <a href={$url('/schema/general/dashboard')} class="list-content">
                         <span class="icon"><i class="material-icons">extension</i></span>
                         <span class="title">Dashboard</span>
                     </a>
