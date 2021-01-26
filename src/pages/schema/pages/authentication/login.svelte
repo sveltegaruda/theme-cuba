@@ -55,7 +55,6 @@
 
 <div class="auth-box">
     <div class="image-section">
-        <!-- <img src="/images/auth-component/" alt="Load image..." /> -->
         <img src="/images/auth-component/login-pict.png" alt="...">
     </div>
     <div class="content-section">

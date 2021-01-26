@@ -34,6 +34,7 @@ textarea{
 	text-decoration: none !important;
 }
 .material-icons{
+	vertical-align: middle;
 	font-size: unset !important;
 }
 
@@ -137,79 +138,79 @@ textarea{
 
 
 .btn-outline-blue{
-	color: #8645ff;
+	color: #8645ff !important;
 	background: #fff;
 	border: 1px solid #8645ff;
 	transition: all 0.2s;
 }
 .btn-outline-blue:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #783ee4 !important;
 	border: 1px solid #783ee4 !important;
 }
 .btn-outline-red{
-	color: #ea5d33;
+	color: #ea5d33 !important;
 	background: #fff;
 	border: 1px solid #ea5d33;
 	transition: all 0.2s;
 }
 .btn-outline-red:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #d65731 !important;
 	border: 1px solid #d65731 !important;
 }
 .btn-outline-red-light{
-	color: #dc3545;
+	color: #dc3545 !important;
 	background: #fff;
 	border: 1px solid #dc3545;
 	transition: all 0.2s;
 }
 .btn-outline-red-light:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #dc3545 !important;
 	border: 1px solid #dc3545 !important;
 }
 .btn-outline-teal{
-	color: #17a2b8;
+	color: #17a2b8 !important;
 	background: #fff;
 	border: 1px solid #17a2b8;
 	transition: all 0.2s;
 }
 .btn-outline-teal:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #17a2b8 !important;
 	border: 1px solid #17a2b8 !important;
 }
 .btn-outline-orange{
-	color: #ffc107;
+	color: #ffc107 !important;
 	background: #fff;
 	border: 1px solid #ffc107;
 	transition: all 0.2s;
 }
 .btn-outline-orange:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #ffc107 !important;
 	border: 1px solid #ffc107 !important;
 }
 .btn-outline-green{
-	color: #28a745;
+	color: #28a745 !important;
 	background: #fff;
 	border: 1px solid #28a745;
 	transition: all 0.2s;
 }
 .btn-outline-green:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #28a745 !important;
 	border: 1px solid #28a745 !important;
 }
 .btn-outline-dark{
-	color: #343a40;
+	color: #343a40 !important;
 	background: #fff;
 	border: 1px solid #343a40;
 	transition: all 0.2s;
 }
 .btn-outline-dark:hover{
-	color: #fff;
+	color: #fff !important;
 	background: #343a40 !important;
 	border: 1px solid #343a40 !important;
 }

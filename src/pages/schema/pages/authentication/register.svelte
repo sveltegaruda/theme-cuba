@@ -80,56 +80,29 @@
 
 <div class="auth-box">
     <div class="image-section">
-        <!-- <img src="/images/auth-component/" alt="Load image..." /> -->
-        <img src="/images/auth-component/login-pict.png" alt="..." />
+        <img src="/images/auth-component/register-pict.jpg" alt="..." />
     </div>
     <div class="content-section">
-        <span
-            class="pull-left full-width text-19 text-bold tcolor-normal mgb-10"
-            >Daftar Akun</span
-        >
-        <span class="pull-left full-width text-14 tcolor-subtitle mgb-30"
-            >Silahkan lakukan pendaftaran akun pada form berikut.</span
-        >
+        <span class="pull-left full-width text-19 text-bold tcolor-normal mgb-10" >Daftar Akun</span>
+        <span class="pull-left full-width text-14 tcolor-subtitle mgb-30">Silahkan lakukan pendaftaran akun pada form berikut.</span>
         <div class="pull-left full-width mgb-30">
             <form action="./" method="POST" enctype="multipart/form-data">
                 <div class="pull-left full-width">
-                    <span
-                        class="pull-left full-width text-14 tcolor-mid-normal mgb-5"
-                        >Username</span
-                    >
+                    <span  class="pull-left full-width text-14 tcolor-mid-normal mgb-5" >Username</span>
                     <div class="cb-input-control">
                         <span class="icon-input-cb"><Icon data={user} /></span>
-                        <input
-                            type="text"
-                            name=""
-                            class="input-cb"
-                            placeholder="Isikan disini"
-                        />
+                        <input type="text" name="" class="input-cb" placeholder="Isikan disini"/>
                     </div>
                 </div>
                 <div class="pull-left full-width">
-                    <span
-                        class="pull-left full-width text-14 tcolor-mid-normal mgb-5"
-                        >Email</span
-                    >
+                    <span class="pull-left full-width text-14 tcolor-mid-normal mgb-5" >Email</span>
                     <div class="cb-input-control">
-                        <span class="icon-input-cb"
-                            ><i class="material-icons">mail</i></span
-                        >
-                        <input
-                            type="text"
-                            name=""
-                            class="input-cb"
-                            placeholder="Isikan disini"
-                        />
+                        <span class="icon-input-cb"><i class="material-icons">mail</i></span>
+                        <input type="text" name="" class="input-cb" placeholder="Isikan disini"/>
                     </div>
                 </div>
                 <div class="pull-left full-width">
-                    <span
-                        class="pull-left full-width text-14 tcolor-mid-normal mgb-5"
-                        >Password</span
-                    >
+                    <span class="pull-left full-width text-14 tcolor-mid-normal mgb-5">Password</span>
                     <div class="cb-input-control">
                         <span id="passTooltip" class="icon-input-cb i-pass">
                             <span class="locked visible">
@@ -139,19 +112,11 @@
                                 <Icon data={unlock} />
                             </span>
                         </span>
-                        <input
-                            type="text"
-                            name=""
-                            class="input-cb"
-                            placeholder="Isikan disini"
-                        />
+                        <input type="text" name="" class="input-cb" placeholder="Isikan disini"/>
                     </div>
                 </div>
                 <div class="pull-left full-width">
-                    <span
-                        class="pull-left full-width text-14 tcolor-mid-normal mgb-5"
-                        >Ulangi Password</span
-                    >
+                    <span class="pull-left full-width text-14 tcolor-mid-normal mgb-5">Ulangi Password</span>
                     <div class="cb-input-control">
                         <span id="passTooltip" class="icon-input-cb i-pass">
                             <span class="locked visible">
@@ -161,22 +126,12 @@
                                 <Icon data={unlock} />
                             </span>
                         </span>
-                        <input
-                            type="text"
-                            name=""
-                            class="input-cb"
-                            placeholder="Isikan disini"
-                        />
+                        <input type="text" name="" class="input-cb" placeholder="Isikan disini"/>
                     </div>
                 </div>
                 <div class="pull-left full-width mgb-10">
                     <div class="pull-right">
-                        <a
-                            href={$url(
-                                "/schema/pages/authentication/forgot-password"
-                            )}
-                            class="text-14">Lupa Password?</a
-                        >
+                        <a href={$url("/schema/pages/authentication/forgot-password")} class="text-14">Lupa Password?</a>
                     </div>
                 </div>
                 <div class="pull-left full-width">
@@ -186,12 +141,9 @@
                         </button>
                     </div>
                     <div class="pull-right">
-                        <a
-                            href={$url("/schema/pages/authentication/login")}
-                            type="submit"
-                            class="pull-left btn-app btn-outline-blue sm-btn"
-                            >Login</a
-                        >
+                        <a href={$url("/schema/pages/authentication/login")} class="pull-left btn-app btn-outline-blue sm-btn" >
+                            <i class="material-icons mgr-5">security</i> Login
+                        </a>
                     </div>
                 </div>
             </form>

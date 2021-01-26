@@ -32,10 +32,6 @@
                 }
             });
 
-            // Custom Scrollbar
-            var el = document.querySelector('.custom-scrollbar');
-            SimpleScrollbar.initEl(el);
-
         })(jQuery);
     }
 </script>
