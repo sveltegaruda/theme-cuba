@@ -1,0 +1,189 @@
+.text-10{
+	font-size: 10px;
+}
+.text-11{
+	font-size: 11px;
+}
+.text-12{
+	font-size: 12px;
+}
+.text-13{
+	font-size: 13px;
+}
+.text-14{
+	font-size: 14px;
+}
+.text-15{
+	font-size: 15px;
+}
+.text-16{
+	font-size: 16px;
+}
+.text-17{
+	font-size: 17px;
+}
+.text-18{
+	font-size: 18px;
+}
+.text-19{
+	font-size: 19px;
+}
+.text-20{
+	font-size: 20px;
+}
+.text-21{
+	font-size: 21px;
+}
+.text-22{
+	font-size: 22px;
+}
+.text-23{
+	font-size: 23px;
+}
+.text-24{
+	font-size: 24px;
+}
+.text-25{
+	font-size: 25px;
+}
+
+
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-justify{
+	text-align: justify;
+}
+
+.text-w-100{
+    font-weight: 100;
+}
+.text-w-300{
+    font-weight: 300;
+}
+.text-w-400{
+    font-weight: 400;
+}
+.text-w-500{
+    font-weight: 500;
+}
+.text-w-600{
+    font-weight: 600;
+}
+.text-w-700{
+    font-weight: 700;
+}
+.text-w-900{
+    font-weight: 900;
+}
+.text-semi-bold{
+	font-weight: 600;
+}
+.text-bold{
+	font-weight: 700;
+}
+.text-italic{
+	font-style: italic;
+}
+.text-line-through{
+	text-decoration: line-through;
+}
+.text-underline{
+	text-decoration: underline;
+}
+.text-no-underline{
+	text-decoration: none !important;
+}
+.text-ellipsis{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+.tcolor-black{
+	color: #000;
+}
+.tcolor-normal{
+	color: #333;
+}
+.tcolor-normal2{
+	color: #495057;
+	/* color: #5f6368; */
+}
+.tcolor-mid-normal{
+	color: #555;
+}
+.tcolor-mid-normal2{
+	color: #626262;
+}
+.tcolor-semi-smooth{
+	color: #828080;
+}
+.tcolor-subtitle{
+	color: #8c8796;
+}
+.tcolor-mid-smooth{
+	color: #999;
+}
+.tcolor-smooth{
+	color: #adabab;
+}
+.tcolor-blue{
+	color: #8645ff;
+}
+.tcolor-red{
+	color: #ea5d33;
+}
+.tcolor-red-light{
+	color: #ff473d;
+}
+.tcolor-teal{
+	color: #01b8ff;
+}
+.tcolor-orange{
+	color: #ffb209;
+}
+.tcolor-green{
+	color: #38d250;
+}
+.tcolor-white{
+	color: #fff;
+}
+.tcolor-black-to-blue{
+	color: #495057;
+	transition: all 0.3s;
+}
+.tcolor-black-to-blue:hover{
+	color: #7367F0;
+}
+.font-primary {
+	color: #7366ff;
+}
+.font-secondary {
+	color: #f73164;
+}
+.font-success {
+	color: #51bb25;
+}
+.font-danger {
+	color: #dc3545;
+}
+.font-info {
+	color: #a927f9;
+}
+.font-light {
+	color: #f4f4f4;
+}
+.font-dark {
+	color: #2c323f;
+}
+.font-warning {
+	color: #f8d62b;
+}

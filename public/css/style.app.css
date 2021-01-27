@@ -118,6 +118,10 @@ textarea{
 	outline: 0;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
+.btn-app.lg-btn{
+	padding: 10px 25px;
+    font-size: 14px;
+}
 .btn-app.sm-btn{
 	padding: 5px 13px;
     font-size: 13px;
@@ -365,404 +369,6 @@ textarea{
 }
 .width-auto-impt{
 	width: auto !important;
-}
-
-.text-10{
-	font-size: 10px;
-}
-.text-11{
-	font-size: 11px;
-}
-.text-12{
-	font-size: 12px;
-}
-.text-13{
-	font-size: 13px;
-}
-.text-14{
-	font-size: 14px;
-}
-.text-15{
-	font-size: 15px;
-}
-.text-16{
-	font-size: 16px;
-}
-.text-17{
-	font-size: 17px;
-}
-.text-18{
-	font-size: 18px;
-}
-.text-19{
-	font-size: 19px;
-}
-.text-20{
-	font-size: 20px;
-}
-.text-21{
-	font-size: 21px;
-}
-.text-22{
-	font-size: 22px;
-}
-.text-23{
-	font-size: 23px;
-}
-.text-24{
-	font-size: 24px;
-}
-.text-25{
-	font-size: 25px;
-}
-
-
-.text-center{
-	text-align: center;
-}
-.text-left{
-	text-align: left;
-}
-.text-right{
-	text-align: right;
-}
-.text-justify{
-	text-align: justify;
-}
-
-
-.text-semi-bold{
-	font-weight: 600;
-}
-.text-bold{
-	font-weight: 700;
-}
-.text-italic{
-	font-style: italic;
-}
-.text-line-through{
-	text-decoration: line-through;
-}
-.text-underline{
-	text-decoration: underline;
-}
-.text-no-underline{
-	text-decoration: none !important;
-}
-.text-ellipsis{
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-
-.tcolor-black{
-	color: #000;
-}
-.tcolor-normal{
-	color: #333;
-}
-.tcolor-normal2{
-	color: #495057;
-	/* color: #5f6368; */
-}
-.tcolor-mid-normal{
-	color: #555;
-}
-.tcolor-mid-normal2{
-	color: #626262;
-}
-.tcolor-semi-smooth{
-	color: #828080;
-}
-.tcolor-subtitle{
-	color: #8c8796;
-}
-.tcolor-mid-smooth{
-	color: #999;
-}
-.tcolor-smooth{
-	color: #adabab;
-}
-.tcolor-smooth{
-	color: #adabab;
-}
-.tcolor-blue{
-	color: #8645ff;
-}
-.tcolor-red{
-	color: #ea5d33;
-}
-.tcolor-red-light{
-	color: #ff473d;
-}
-.tcolor-teal{
-	color: #01b8ff;
-}
-.tcolor-orange{
-	color: #ffb209;
-}
-.tcolor-green{
-	color: #38d250;
-}
-.tcolor-white{
-	color: #fff;
-}
-.tcolor-black-to-blue{
-	color: #495057;
-	transition: all 0.3s;
-}
-.tcolor-black-to-blue:hover{
-	color: #7367F0;
-}
-.font-primary {
-	color: #7366ff;
-}
-.font-secondary {
-	color: #f73164;
-}
-.font-success {
-	color: #51bb25;
-}
-.font-danger {
-	color: #dc3545;
-}
-.font-info {
-	color: #a927f9;
-}
-.font-light {
-	color: #f4f4f4;
-}
-.font-dark {
-	color: #2c323f;
-}
-.font-warning {
-	color: #f8d62b;
-}
-  
-
-
-.no-pad{
-	padding: 0;
-}
-.no-pad-impt{
-	padding: 0 !important;
-}
-.pdv-app{
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-.pdv-10-to-none{
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.pdh-app{
-	padding-left: 30px;
-	padding-right: 30px;
-}
-.pdh-10-to-none{
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.pda-0{
-	padding: 0px;
-}
-.pdl-0{
-	padding-left: 0px;
-}
-.pdr-0{
-	padding-right: 0px;
-}
-.pdt-0{
-	padding-top: 0px;
-}
-.pdb-0{
-	padding-bottom: 0px;
-}
-.pda-5{
-	padding: 5px;
-}
-.pdl-5{
-	padding-left: 5px;
-}
-.pdr-5{
-	padding-right: 5px;
-}
-.pdt-5{
-	padding-top: 5px;
-}
-.pdb-5{
-	padding-bottom: 5px;
-}
-.pda-8{
-	padding: 8px;
-}
-.pdl-8{
-	padding-left: 8px;
-}
-.pdr-8{
-	padding-right: 8px;
-}
-.pdt-8{
-	padding-top: 8px;
-}
-.pdb-8{
-	padding-bottom: 8px;
-}
-.pda-10{
-	padding: 10px;
-}
-.pdl-10{
-	padding-left: 10px;
-}
-.pdr-10{
-	padding-right: 10px;
-}
-.pdt-10{
-	padding-top: 10px;
-}
-.pdb-10{
-	padding-bottom: 10px;
-}
-.pda-15{
-	padding: 15px;
-}
-.pdl-15{
-	padding-left: 15px;
-}
-.pdr-15{
-	padding-right: 15px;
-}
-.pdt-15{
-	padding-top: 15px;
-}
-.pdb-15{
-	padding-bottom: 15px;
-}
-.pda-20{
-	padding: 20px;
-}
-.pdl-20{
-	padding-left: 20px;
-}
-.pdr-20{
-	padding-right: 20px;
-}
-.pdt-20{
-	padding-top: 20px;
-}
-.pdb-20{
-	padding-bottom: 20px;
-}
-.pda-30{
-	padding: 30px;
-}
-.pdl-30{
-	padding-left: 30px;
-}
-.pdr-30{
-	padding-right: 30px;
-}
-.pdt-30{
-	padding-top: 30px;
-}
-.pdb-30{
-	padding-bottom: 30px;
-}
-
-
-.no-margin{
-	margin: 0 !important;
-}
-.mga-5{
-	margin: 5px;
-}
-.mgl-5{
-	margin-left: 5px;
-}
-.mgr-5{
-	margin-right: 5px;
-}
-.mgt-5{
-	margin-top: 5px;
-}
-.mgb-5{
-	margin-bottom: 5px;
-}
-.mga-10{
-	margin: 10px;
-}
-.mgl-10{
-	margin-left: 10px;
-}
-.mgr-10{
-	margin-right: 10px;
-}
-.mgt-10{
-	margin-top: 10px;
-}
-.mgb-10{
-	margin-bottom: 10px;
-}
-.mga-15{
-	margin: 15px;
-}
-.mgl-15{
-	margin-left: 15px;
-}
-.mgr-15{
-	margin-right: 15px;
-}
-.mgt-15{
-	margin-top: 15px;
-}
-.mgb-15{
-	margin-bottom: 15px;
-}
-.mga-20{
-	margin: 20px;
-}
-.mgl-20{
-	margin-left: 20px;
-}
-.mgr-20{
-	margin-right: 20px;
-}
-.mgt-20{
-	margin-top: 20px;
-}
-.mgb-20{
-	margin-bottom: 20px;
-}
-.mga-25{
-	margin: 25px;
-}
-.mgl-25{
-	margin-left: 25px;
-}
-.mgr-25{
-	margin-right: 25px;
-}
-.mgt-25{
-	margin-top: 25px;
-}
-.mgb-25{
-	margin-bottom: 25px;
-}
-.mga-30{
-	margin: 30px;
-}
-.mgl-30{
-	margin-left: 30px;
-}
-.mgr-30{
-	margin-right: 30px;
-}
-.mgt-30{
-	margin-top: 30px;
-}
-.mgb-30{
-	margin-bottom: 30px;
 }
 
 
@@ -1175,6 +781,10 @@ color: #ffffff;
 }
 .card-body{
 	padding: 1.25rem 0 !important;
+}
+.card-image{
+	max-width: 100%;
+	max-height: 100%;
 }
 
 
@@ -1899,22 +1509,30 @@ content.collapse-mode{
     letter-spacing: 0.5px;
     border-radius: 10px !important;
     -webkit-box-shadow: 0 0 20px rgba(8, 21, 66, 0.05);
-    box-shadow: 0 0 20px rgba(8, 21, 66, 0.05);
+	box-shadow: 0 0 20px rgba(8, 21, 66, 0.05);
+	overflow: hidden;
 }
 .card-title {
+	margin-bottom: 0px !important;
 	padding-bottom: 20px;
 }
+.card-footer {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	background: transparent !important;
+	border-top: none !important;
+}
 .border-top-card{
-	border-bottom: 1px solid #f7f6f6;
+	border-top: 1px solid #f7f6f6 !important;
 }
 .border-bottom-card{
-	border-bottom: 1px solid #f7f6f6;
+	border-bottom: 1px solid #f7f6f6 !important;
 }
 .border-left-card{
-	border-bottom: 1px solid #f7f6f6;
+	border-left: 1px solid #f7f6f6 !important;
 }
 .border-right-card{
-	border-bottom: 1px solid #f7f6f6;
+	border-right: 1px solid #f7f6f6 !important;
 }
 
 /* ---------------------- */

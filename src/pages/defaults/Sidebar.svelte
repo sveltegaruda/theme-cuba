@@ -119,13 +119,7 @@
                 <li class="sidebar-list" class:active={$isActive('/schema/ui-elements/colors')}>
                     <a href={$url('/schema/ui-elements/colors')} class="list-content">
                         <span class="icon"><i class="material-icons">drag_indicator</i></span>
-                        <span class="title">Colors</span>
-                    </a>
-                </li>
-                <li class="sidebar-list" class:active={$isActive('/schema/ui-elements/buttons')}>
-                    <a href={$url('/schema/ui-elements/buttons')} class="list-content">
-                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
-                        <span class="title">Buttons</span>
+                        <span class="title">Colors & Buttons</span>
                     </a>
                 </li>
                 <li class="sidebar-list" class:active={$isActive('/schema/ui-elements/alerts')}>
