@@ -204,7 +204,7 @@
     
     
                 <!-- E-commerce -->
-                <li class="sidebar-title">
+                <!-- <li class="sidebar-title">
                     <span class="title">E-commerce</span>
                     <span class="description">Build your own online shop</span>
                 </li>
@@ -243,7 +243,7 @@
                         <span class="icon"><i class="material-icons">drag_indicator</i></span>
                         <span class="title">Wishlist</span>
                     </a>
-                </li>
+                </li> -->
     
     
                 <!-- Pages -->

@@ -11,6 +11,7 @@
         <div class="card pda-30">
             <div class="card-title">
                 <h5><b>Default Colors</b></h5>
+                <p class="text-12 mgb-0">We have a series of colors that are used by default.</p>
             </div>
             <div class="card-body">
                 <button class="btn-app bg-app xs-btn mgr-10 mgb-10">.bg-app</button>
@@ -32,6 +33,7 @@
         <div class="card pda-30">
             <div class="card-title">
                 <h5><b>Buttons</b></h5>
+                <p class="text-12 mgb-0">We have a series of buttons that are used by default.</p>
             </div>
             <div class="card-body">
                 <Col md=12 class="mbg-15">
