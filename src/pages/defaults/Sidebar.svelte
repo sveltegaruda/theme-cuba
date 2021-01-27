@@ -182,6 +182,12 @@
                         <span class="title">Navigation</span>
                     </a>
                 </li>
+                <li class="sidebar-list" class:active={$isActive('/schema/ui-elements/charts')}>
+                    <a href={$url('/schema/ui-elements/charts')} class="list-content">
+                        <span class="icon"><i class="material-icons">drag_indicator</i></span>
+                        <span class="title">Charts</span>
+                    </a>
+                </li>
     
     
                 <!-- Social Media -->

@@ -1,0 +1,322 @@
+/* Form Input */
+.form-group label{
+	font-size: 0.85rem;
+}
+.form-control{
+	height: calc(1.5em + .75rem + 6px) !important;
+    padding: 0.75rem .75rem !important;
+    font-size: 0.85rem !important;
+    transition: all 0.3s !important;
+}
+.form-control:focus {
+	padding-left: 1rem !important;
+	border-color: #7867ff !important;
+	box-shadow: 0 3px 10px 0 rgba(34,41,47,.1) !important;
+}
+.card-body{
+	padding: 1.25rem 0 !important;
+}
+.card-image{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+/* Tooltip */
+.tooltip-inner{
+	padding: 7px 15px;
+	font-size: 13px;
+}
+/* .bs-tooltip-auto[x-placement^=top], .bs-tooltip-top{
+	top: -100% !important;
+}
+.bs-tooltip-auto[x-placement^=top] .arrow, .bs-tooltip-top .arrow{
+	bottom: 2px !important;
+}
+.bs-tooltip-auto[x-placement^=bottom], .bs-tooltip-bottom{
+	bottom: -100% !important;
+}
+.bs-tooltip-auto[x-placement^=left], .bs-tooltip-left{
+	left: -100% !important;
+}
+.bs-tooltip-auto[x-placement^=right], .bs-tooltip-right{
+	right: -100% !important;
+} */
+
+
+/* Badge */
+.badge{
+	padding: .4em .6em;
+	font-size: 65%;
+	font-weight: unset;
+	background-color: #bbc5ce;
+	border-radius: .20rem;
+}
+.badge.lg-badge{
+	padding: .8em 1.0em;
+}
+.badge.vlg-badge{
+	padding: 1em 1.2em;
+}
+.badge-glow{
+	box-shadow: 0 0 10px #7367f0;
+}
+.badge[mode-badge=light]{
+	background-color: rgba(115,103,240,.12);
+}
+.badge-primary{
+	background-color: #8645ff;
+}
+.badge-secondary{
+	background-color: #51575d;
+}
+.badge-success{
+	background-color: #38d250;
+}
+.badge-danger{
+	background-color: #d65731;
+}
+.badge-warning{
+	color: #fff;
+	background-color: #ffb209;
+}
+.badge-info{
+	background-color: #01b8ff;
+}
+.badge-dark{
+	background-color: #23272b;
+}
+.badge-light{
+	background-color: #f8f9fa;
+}
+.badge.light-default{
+	color: #bbc5ce;
+}
+.badge.light-primary{
+	color: #8645ff;
+}
+.badge.light-secondary{
+	color: #51575d;
+}
+.badge.light-success{
+	color: #38d250;
+}
+.badge.light-danger{
+	color: #d65731;
+}
+.badge.light-warning{
+	color: #ffb209;
+}
+.badge.light-info{
+	color: #01b8ff;
+}
+.badge.light-dark{
+	color: #23272b;
+}
+.badge.light-light{
+	color: #c5ccd4;
+}
+
+
+/* Alerts */
+.alert {
+    border: 0;
+    border-radius: 3px;
+    position: relative;
+    /* padding: 20px 15px; */
+	padding: 13px 20px;
+	font-size: .8rem;
+	/* line-height: 20px; */
+    line-height: 16px;
+	border-bottom: 0px !important;
+}
+.alert-heading{
+	font-size: 1.1rem;
+}
+.alert b {
+	font-weight: 600;
+}
+.alert,
+.alert.alert-default {
+	background-color: #bbc5ce;
+	color: #555555;
+}
+.alert a,
+.alert .alert-link,
+.alert.alert-default a,
+.alert.alert-default .alert-link {
+	color: #555555;
+}
+.alert.alert-inverse {
+	background-color: #292929;
+	color: #fff;
+}
+.alert.alert-inverse a,
+.alert.alert-inverse .alert-link {
+	color: #fff;
+}
+.alert.alert-primary {
+	background-color: #a72abd;
+	color: #ffffff;
+}
+.alert.alert-primary a,
+.alert.alert-primary .alert-link {
+	color: #ffffff;
+}
+.alert.alert-success {
+	background-color: #55b559;
+	color: #ffffff;
+}
+.alert.alert-success a,
+.alert.alert-success .alert-link {
+color: #ffffff;
+}
+.alert.alert-info {
+	background-color: #00cae3;
+	color: #ffffff;
+}
+.alert.alert-info a,
+.alert.alert-info .alert-link {
+	color: #ffffff;
+}
+.alert.alert-warning {
+	background-color: #ff9e0f;
+	color: #ffffff;
+}
+.alert.alert-warning a,
+.alert.alert-warning .alert-link {
+	color: #ffffff;
+}
+.alert.alert-danger {
+	background-color: #f55145;
+	color: #ffffff;
+}
+.alert.alert-danger a,
+.alert.alert-danger .alert-link {
+	color: #ffffff;
+}
+.alert.alert-rose {
+	background-color: #ea2c6d;
+	color: #ffffff;
+}
+.alert.alert-rose a,
+.alert.alert-rose .alert-link {
+	color: #ffffff;
+}
+.alert-info,
+.alert-danger,
+.alert-warning,
+.alert-success,
+.alert-rose {
+	color: #ffffff;
+}
+.alert-default a,
+.alert-default .alert-link {
+	color: rgba(0, 0, 0, 0.87);
+}
+.alert span {
+	display: block;
+	max-width: 89%;
+}
+.alert.alert-danger {
+	box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(244, 67, 54, 0.4);
+}
+.alert.alert-danger i {
+	color: #f44336;
+}
+.alert.alert-warning {
+	box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4);
+}
+.alert.alert-warning i {
+	color: #ff9800;
+}
+.alert.alert-success {
+	box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4);
+}
+.alert.alert-success i {
+	color: #4caf50;
+}
+.alert.alert-info {
+	box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 188, 212, 0.4);
+}
+.alert.alert-info i {
+	color: #00bcd4;
+}
+.alert.alert-primary {
+	box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
+}
+.alert.alert-primary i {
+	color: #9c27b0;
+}
+.alert.alert-rose {
+	box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4);
+}
+.alert.alert-rose i {
+	color: #e91e63;
+}
+.alert.alert-light{
+	background-color: white;
+}
+.alert.alert-dark{
+	color: #fff;
+	background-color: #23272b;
+}
+.alert.alert-dark a{
+	color: #1d6dbd;
+}
+.alert.alert-with-icon {
+	padding-left: 66px;
+}
+.alert i[data-notify=icon]{
+	display:block;
+	left:15px;
+	position:absolute;
+	margin-top:-35px;
+	font-size: 20px !important;
+	background-color:#fff;
+	padding:9px;
+	border-radius:50%;
+	max-width:38px;
+	box-shadow:0 16px 38px -12px rgba(0,0,0,.56),0 4px 25px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+}
+.alert span[data-notify=message]{
+	margin-top: 5px;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.alert .close {
+	top: 10px !important;
+	line-height: .5;
+}
+.alert .close i {
+	color: #fff;
+	font-size: 13px !important;
+}
+.alert .alert-icon {
+	display: block;
+	float: left;
+	margin-right: 1.071rem;
+}
+.alert .alert-icon i {
+	margin-top: -7px;
+	top: 5px;
+	position: relative;
+}
+.alert [data-notify="dismiss"] {
+	margin-right: 5px;
+}
+.places-buttons .btn {
+	margin-bottom: 30px;
+}
+.close{
+	font-size: 1.1rem;
+	text-shadow: unset;
+}
+.alert.alert-primary .close:hover,
+.alert.alert-success .close:hover,
+.alert.alert-danger .close:hover,
+.alert.alert-warning .close:hover,
+.alert.alert-info .close:hover,
+.alert.alert-dark .close:hover{
+	color: #fff;
+}
